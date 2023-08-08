@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-tnvt
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/quay_xjiang/jvm-build-hepn-tenant/jvm-build-suite-application-opci/jvm-build-suite-component-tnvt@sha256:f14b6986f87ace171709187945d85c45f52f97dec9176f6bf37e537de012eb43
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
