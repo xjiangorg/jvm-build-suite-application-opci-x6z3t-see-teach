@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-tnvt
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/quay_xjiang/jvm-build-hepn-tenant/jvm-build-suite-application-opci/jvm-build-suite-component-tnvt@sha256:f14b6986f87ace171709187945d85c45f52f97dec9176f6bf37e537de012eb43
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
